@@ -9,7 +9,7 @@ class Solution:
                 r -= 1
 
             if s[l].lower() != s[r].lower():
-                return False # Not the same character, thus string not a palindrome
+                return False # Not the same character, thus string not a apalindrome
 
             l, r = l + 1, r - 1
 
