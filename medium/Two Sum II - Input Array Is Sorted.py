@@ -5,6 +5,6 @@ class Solution:
             if numbers[low] + numbers[high] > target:
                 high -= 1 # If sum too high, move higher pointer down/left one
             else:
-                low += 1 # If sum too low, move the lower pointer up/right one
+                low += 1 # I sum too low, move the lower pointer up/right one
 
         return [low + 1, high + 1]
